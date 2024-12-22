@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies & Interests - My Aesthetic Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Palatino;
+            background-color: #f2f2f2;
+            color: #2b6777;
+            padding-top: 60px;
+            padding-bottom: 60px; /* Added bottom padding to prevent coverage */
+            text-align: center; /* Centers all text by default */
+        }
+
+        h1 {
+            text-align: center; /* Centers the header text */
+            font-size: 36px;
+            margin-bottom: 40px; /* Adds spacing below the title */
+        }
+
+        nav {
+            background-color: #2b6777;
+            height: 60px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between; /* Adjusted for logo and links */
+            align-items: center;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 5px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #52ab98;
+        }
+
+        .active {
+            color: #52ab98;
+            font-weight: bold;
+        }
+
+        .logo {
+            max-width: 50px; /* Adjust logo size */
+            height: 40px;
+        }
+
+        section {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2b6777;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding-top: 10px;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #52ab98;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="Logo" class="logo"> <!-- Replace with your logo path -->
+        <div>
+            <a href="index.html"><i class="fas fa-home"></i></a>
+            <a href="about.html">About</a>
+            <a href="hobbies.html" class="active">Hobbies & Interests</a>
+        </div>
+    </nav>
+
+    <h1>My Hobbies & Interests</h1>
+
+    <!-- Food Section -->
+    <section>
+        <h2>Food</h2>
+        <p>I really enjoy cooking different Filipino dishes like Adobo, Sinigang, Pinakbet, Nilaga, and Sisig. These dishes are always a hit at home, and I love how they bring my family together. Every time I cook them, it feels like I’m sharing a piece of our culture.</p>
+        <div class="image-container">
+            <a href="https://en.wikipedia.org/wiki/Adobo"><img src="images/adobo.jpg" alt="Adobo" title="Click to read about Adobo"></a>
+            <a href="https://en.wikipedia.org/wiki/Sinigang"><img src="images/sinigang.jpg" alt="Sinigang" title="Click to read about Sinigang"></a>
+            <a href="https://en.wikipedia.org/wiki/Pinakbet"><img src="images/pinakbet.jpg" alt="Pinakbet" title="Click to read about Pinakbet"></a>
+            <a href="https://en.wikipedia.org/wiki/Nilaga"><img src="images/nilaga.jpg" alt="Nilaga" title="Click to read about Nilaga"></a>
+            <a href="https://en.wikipedia.org/wiki/Sisig"><img src="images/sisig.jpg" alt="Sisig" title="Click to read about Sisig"></a>
+        </div>
+    </section>
+
+    <!-- Anime Section -->
+    <section>
+        <h2>Favorite Anime</h2>
+        <p>Anime has always been one of my favorite hobbies. Shows like One Piece, Demon Slayer, Attack on Titan, Slam Dunk, and Dragon Ball have made such an impact on me. I love how they mix action, friendship, and adventure in ways that make you feel connected to the characters.</p>
+        <div class="image-container">
+            <a href="https://en.wikipedia.org/wiki/One_Piece"><img src="images/one_piece.jpg" alt="One Piece" title="Click to read about One Piece"></a>
+            <a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba"><img src="images/demon_slayer.jpg" alt="Demon Slayer" title="Click to read about Demon Slayer"></a>
+            <a href="https://en.wikipedia.org/wiki/Attack_on_Titan"><img src="images/attack_on_titan.jpg" alt="Attack on Titan" title="Click to read about Attack on Titan"></a>
+            <a href="slam-dunk-synopsis.html"><img src="images/slam_dunk.jpg" alt="Slam Dunk" title="Click to read about Slam Dunk"></a>
+            <a href="https://en.wikipedia.org/wiki/Dragon_Ball_Z"><img src="images/dragon_ball.jpg" alt="Dragon Ball" title="Click to read about Dragon Ball"></a>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section>
+        <h2>Music</h2>
+        <p>Music has always been a big part of my life. Bands like Parokya ni Edgar, Eraserheads, Silent Sanctuary, Orange and Lemons, and Apo Hiking Society have shaped the way I see life. Their songs speak to me in a way that no other music does, and I always find myself going back to them.</p>
+        <div class="image-container">
+            <a href="https://en.wikipedia.org/wiki/Parokya_ni_Edgar"><img src="images/parokya.jpg" alt="Parokya ni Edgar" title="Click to read about Parokya ni Edgar"></a>
+            <a href="https://en.wikipedia.org/wiki/Eraserheads"><img src="images/eraserheads.jpg" alt="Eraserheads" title="Click to read about Eraserheads"></a>
+            <a href="https://en.wikipedia.org/wiki/Silent_Sanctuary"><img src="images/silent_sanctuary.jpg" alt="Silent Sanctuary" title="Click to read about Silent Sanctuary"></a>
+            <a href="https://en.wikipedia.org/wiki/Orange_and_Lemons"><img src="images/orange_and_lemons.jpg" alt="Orange and Lemons" title="Click to read about Orange and Lemons"></a>
+            <a href="https://en.wikipedia.org/wiki/APO_Hiking_Society"><img src="images/apo_hiking.jpg" alt="Apo Hiking Society" title="Click to read about Apo Hiking Society"></a>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section>
+        <h2>Games</h2>
+        <p>I’ve been passionate about playing games like Call of Duty, Mobile Legends, Terraria, and Minecraft for years. They’re not just fun, but they’re also a great way to connect with friends and unwind after a busy day. Each game brings a different experience, and I enjoy them all in their own unique way.</p>
+        <div class="image-container">
+            <a href="https://en.wikipedia.org/wiki/Call_of_Duty:_Mobile"><img src="images/call_of_duty.jpg" alt="Call of Duty" title="Click to read about Call of Duty"></a>
+            <a href="https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang"><img src="images/mobile_legends.jpg" alt="Mobile Legends" title="Click to read about Mobile Legends"></a>
+            <a href="https://en.wikipedia.org/wiki/Terraria"><img src="images/terraria.jpg" alt="Terraria" title="Click to read about Terraria"></a>
+            <a href="https://en.wikipedia.org/wiki/Minecraft"><img src="images/minecraft.jpg" alt="Minecraft" title="Click to read about Minecraft"></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jologabriel.donato/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/@jolodonato1134" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/jolobulalo" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/jolo_bulaloo/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Palatino;
+            background-color: #f2f2f2;
+            color: #2b6777;
+            padding-top: 60px;
+        }
+
+        nav {
+            background-color: #2b6777;
+            height: 60px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            max-width: 50px;
+            height: 40px;
+        }
+
+        nav .links {
+            display: flex;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 5px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #52ab98;
+        }
+
+        .active {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url("images/hero-background.jpg") no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 80px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            background-color: #2b6777; 
+            color: #ffffff; 
+            border: 2px solid #2b6777;
+            padding: 10px 20px;
+            margin: 5px;
+            font-family: Palatino;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button-container button:hover {
+            background-color: #ffffff; 
+            color: #2b6777; 
+            transform: scale(1.05);
+
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2b6777;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding-top: 10px;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #52ab98;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div>
+            <img src="images/logo.png" alt="My Logo" class="logo">
+        </div>
+        <div class="links">
+            <a href="index.html" class="active"><i class="fas fa-home"></i></a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <h1>Welcome</h1>
+            <p>Discover who I am, my passions, and what inspires me.</p>
+
+            <div class="button-container">
+                <button onclick="location.href='about.html'">About Me</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jologabriel.donato/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/@jolodonato1134" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/jolobulalo" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/jolo_bulaloo/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>

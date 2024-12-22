@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Journey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Palatino, serif;
+            background-color: #f2f2f2;
+            color: #2b6777;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        nav {
+            background-color: #2b6777;
+            height: 60px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo-container {
+            flex: 0 0 auto;
+        }
+
+        .logo {
+            max-width: 50px;
+            height: 40px;
+        }
+
+        nav .links {
+            display: flex;
+            margin-left: auto;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 5px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #52ab98;
+        }
+
+        .active {
+            color: #52ab98;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin: 20px 0;
+            color: #2b6777;
+        }
+
+        .section {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-container img:focus {
+            transform: scale(1.5);
+            outline: none;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2b6777;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding-top: 10px;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #52ab98;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="My Logo" class="logo">
+        </div>
+        <div class="links">
+            <a href="index.html"><i class="fas fa-home"></i></a>
+            <a href="about.html" class="active">About</a>
+            <a href="hobbies.html">Hobbies & Interests</a>
+        </div>
+    </nav>
+
+    <h1>About Me</h1>
+
+    <section class="section">
+        <div class="image-container">
+            <img src="images/polaroid.png" alt="My Photo" tabindex="0">
+        </div>
+        <p>Hi, I'm Jolo Gabriel J. Donato, and I was born on March 18, 2006. I’m 18 years old, and my journey so far has been quite a story. Growing up in Maungib, Pura, Tarlac, I’ve always been curious and eager to explore what life has to offer.</p>
+    </section>
+
+    <section class="section">
+        <div class="image-container">
+            <img src="images/tau_facade.jpg" alt="Studying" tabindex="0">
+        </div>
+        <h2>I Study at</h2>
+        <p>I’m currently a Bachelor of Science in Information Technology student at Tarlac Agricultural University. Technology has always fascinated me, and studying here has opened so many doors.</p>
+    </section>
+
+    <section class="section">
+        <div class="image-container">
+            <img src="images/my_living_1.jpg" alt="My Living" tabindex="0">
+            <img src="images/my_living_2.jpg" alt="My Living" tabindex="0">
+        </div>
+        <h2>Where I Live</h2>
+        <p>Home has always been Maungib, Pura, Tarlac, but to be closer to school, I stay at a boarding house in Malacampa, Camiling, Tarlac.</p>
+    </section>
+
+    <section class="section">
+        <div class="image-container">
+            <img src="images/my_family.jpg" alt="My Family" tabindex="0">
+        </div>
+        <h2>My Family</h2>
+        <p>I come from a family of five, and we’re really close. My parents, Gina and Christopher Donato, are incredibly supportive. My siblings, Christine Kate and John Edward, are like my built-in best friends. As the youngest, I’ve always had them to look up to.</p>
+    </section>
+
+    <section class="section">
+        <div class="image-container">
+            <img src="images/my_girlfriend_1.jpg" alt="My Girlfriend" tabindex="0">
+            <img src="images/my_girlfriend_2.jpg" alt="My Girlfriend" tabindex="0">
+        </div>
+        <h2>Someone Special</h2>
+        <p>There’s also Abigail, my girlfriend. We met in a really fun way, through an online game called Call of Duty, and we’ve been together for over a year now. She’s been a big part of my life, and she even gave me my cat, Cheeky, who’s always up to some mischief.</p>
+    </section>
+
+    <section class="section">
+        <div class="image-container">
+            <img src="images/cheeky.png" alt="Cheeky the Cat" tabindex="0">
+        </div>
+        <h2>Meet Cheeky</h2>
+        <p>Cheeky is my mischievous little cat, always getting into trouble and making life more fun. She’s the sweetest companion and has brought so much joy into my life!</p>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jologabriel.donato/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/@jolodonato1134" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/jolobulalo" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/jolo_bulaloo/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
